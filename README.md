@@ -13,6 +13,13 @@ Step 2) Enter the details in the file .env, present in the same folder
 Step 3) On your terminal run: npm i && pm2 start vaccineNotifier.js
 \
 \
+Step 4) Then, to start the app, on your terminal run: npm start
+\
+\
+To stop the pm2 server, run: npm run stop
+and to delete the server, run: npm run delete
+\
+\ 
 To close the app run: pm2 stop vaccineNotifier.js && pm2 delete vaccineNotifier.js
 
 Here's a sample of the resultant emails:
